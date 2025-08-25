@@ -26,7 +26,7 @@ export default async function Image() {
           overflow: "hidden",
         }}
       >
-        {/* Background gradient with Farcaster purple and electric blue */}
+        {/* Background gradient with coastal sand and ocean blue */}
         <div
           style={{
             position: "absolute",
@@ -34,12 +34,12 @@ export default async function Image() {
             left: 0,
             right: 0,
             bottom: 0,
-            background: "linear-gradient(135deg, #8A63D2 0%, #1E90FF 100%)",
-            opacity: 0.9,
+            background: "linear-gradient(135deg, #F4E4C1 0%, #4A90B8 50%, #2E5E7A 100%)",
+            opacity: 0.95,
           }}
         />
 
-        {/* Subtle pattern overlay for depth */}
+        {/* Subtle pattern overlay for coastal depth */}
         <div
           style={{
             position: "absolute",
@@ -48,7 +48,7 @@ export default async function Image() {
             right: 0,
             bottom: 0,
             backgroundImage:
-              "radial-gradient(circle at 20% 80%, rgba(138, 99, 210, 0.4) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(30, 144, 255, 0.4) 0%, transparent 50%)",
+              "radial-gradient(circle at 20% 80%, rgba(244, 228, 193, 0.3) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(74, 144, 184, 0.3) 0%, transparent 50%)",
           }}
         />
 
@@ -95,7 +95,7 @@ export default async function Image() {
                 height: "120px",
                 borderRadius: "50%",
                 overflow: "hidden",
-                border: "6px solid rgba(255, 255, 255, 0.95)",
+                border: "6px solid rgba(244, 228, 193, 0.95)",
                 backgroundColor: "#ffffff",
                 display: "flex",
                 alignItems: "center",
@@ -122,12 +122,12 @@ export default async function Image() {
             style={{
               fontSize: PROJECT_TITLE.length > 25 ? "65px" : "72px",
               fontWeight: "900",
-              color: "#ffffff",
+              color: "#1a2332",
               textAlign: "center",
               marginBottom: "40px",
               lineHeight: 1.1,
               letterSpacing: "-2px",
-              textShadow: "0 6px 20px rgba(0, 0, 0, 0.4)",
+              textShadow: "0 6px 20px rgba(255, 255, 255, 0.8)",
               maxWidth: "1100px",
               fontFamily: "system-ui, -apple-system, sans-serif",
               whiteSpace: PROJECT_TITLE.length > 40 ? "normal" : "nowrap",
@@ -143,11 +143,11 @@ export default async function Image() {
             style={{
               fontSize: "36px",
               fontWeight: "600",
-              color: "rgba(255, 255, 255, 0.95)",
+              color: "#2e3a47",
               textAlign: "center",
               marginBottom: "56px",
               lineHeight: 1.3,
-              textShadow: "0 3px 12px rgba(0, 0, 0, 0.4)",
+              textShadow: "0 3px 12px rgba(255, 255, 255, 0.6)",
               maxWidth: "800px",
               fontFamily: "system-ui, -apple-system, sans-serif",
             }}
@@ -162,11 +162,11 @@ export default async function Image() {
               alignItems: "center",
               gap: "16px",
               padding: "20px 40px",
-              backgroundColor: "rgba(255, 255, 255, 0.2)",
+              backgroundColor: "rgba(46, 94, 122, 0.9)",
               borderRadius: "100px",
-              border: "3px solid rgba(255, 255, 255, 0.4)",
+              border: "3px solid rgba(244, 228, 193, 0.8)",
               backdropFilter: "blur(10px)",
-              boxShadow: "0 8px 32px rgba(0, 0, 0, 0.2)",
+              boxShadow: "0 8px 32px rgba(0, 0, 0, 0.3)",
             }}
           >
             {/* Farcaster icon */}
